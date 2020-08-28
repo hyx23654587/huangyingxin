@@ -1,0 +1,1 @@
+"use strict";function getCookie(o){for(var i=document.cookie.split("; "),e=0;e<i.length;e++){var t=i[e].split("=");if(t[0]===o)return t[1]}}var islogin=getCookie("islogin");function setCookie(o,i){document.cookie=o+"="+i}function clearCookie(o){document.cookie=o+"=aaa;max-age=-1"}islogin||(location.href="./login.html#"+location.herf);

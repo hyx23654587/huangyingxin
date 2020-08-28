@@ -1,0 +1,97 @@
+    li{
+        list-style: none;
+    }
+    #headerbox{
+        height: 70px;
+        margin: 10 auto;
+        img{
+            margin: 10px;
+            padding-right: 10px;
+            border-right: 1px solid #ccc;
+        }
+        h2{
+            margin: 10px;
+        }
+    }
+    #contentbox{
+        p{
+            background-color: pink;
+            color: orangered;
+            border: 1px solid #ccc;
+            img{
+                margin:10px 20px;
+            }
+        }
+        #frombox{
+            border: 1px solid #ccc;
+            #method{
+                i{
+                    font-size: 50px;
+                    line-height: 50px;
+                    float: right;
+                }
+                span{
+                    margin: 10px;                   
+                    background-color: pink;
+                    color: orange;
+                    border: 1px solid #ccc;
+                    float: right;
+                }
+            }
+            #qiehuan{
+                margin-top: 50px;
+                
+                    input{
+                        margin-top: 20px;
+                    }
+                    button{
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        background-color: orangered;
+                        color: white;
+                        font-size: 20px;
+                        line-height: 30px;
+
+                    }
+                    #nohave{
+                        padding-bottom: 20px;
+
+                    }
+
+            }
+        }
+
+    }
+    #zengzhi{
+        font-size: 16px;
+        color: #ccc;
+        div{
+            #phone{
+                width: 20px;
+                height: 20px;
+                background-image: url(../resource/images/sprite.png);
+                background-position:2px -299px;
+            }
+            overflow: hidden;
+
+        }
+    }
+    #footer{
+        #footerbox{
+            border-top: 3px solid orangered;
+            ul{
+                li{
+                    float: left;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .active{
+        border-bottom: 3px solid #000;
+    }
+   .none{
+        display: none!important;
+    }
+
+

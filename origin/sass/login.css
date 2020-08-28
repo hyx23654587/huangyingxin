@@ -1,0 +1,100 @@
+li {
+  list-style: none;
+}
+
+#headerbox {
+  height: 70px;
+  margin: 10 auto;
+}
+
+#headerbox img {
+  margin: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #ccc;
+}
+
+#headerbox h2 {
+  margin: 10px;
+}
+
+#contentbox p {
+  background-color: pink;
+  color: orangered;
+  border: 1px solid #ccc;
+}
+
+#contentbox p img {
+  margin: 10px 20px;
+}
+
+#contentbox #frombox {
+  border: 1px solid #ccc;
+}
+
+#contentbox #frombox #method i {
+  font-size: 50px;
+  line-height: 50px;
+  float: right;
+}
+
+#contentbox #frombox #method span {
+  margin: 10px;
+  background-color: pink;
+  color: orange;
+  border: 1px solid #ccc;
+  float: right;
+}
+
+#contentbox #frombox #qiehuan {
+  margin-top: 50px;
+}
+
+#contentbox #frombox #qiehuan input {
+  margin-top: 20px;
+}
+
+#contentbox #frombox #qiehuan button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#contentbox #frombox #qiehuan #nohave {
+  padding-bottom: 20px;
+}
+
+#zengzhi {
+  font-size: 16px;
+  color: #ccc;
+}
+
+#zengzhi div {
+  overflow: hidden;
+}
+
+#zengzhi div #phone {
+  width: 20px;
+  height: 20px;
+  background-image: url(../resource/images/sprite.png);
+  background-position: 2px -299px;
+}
+
+#footer #footerbox {
+  border-top: 3px solid orangered;
+}
+
+#footer #footerbox ul li {
+  float: left;
+  font-size: 14px;
+}
+
+.active {
+  border-bottom: 3px solid #000;
+}
+
+.none {
+  display: none !important;
+}

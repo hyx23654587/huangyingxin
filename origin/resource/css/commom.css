@@ -1,0 +1,42 @@
+﻿@charset "utf-8";
+
+html,body,section,article,aside,header,footer,nav,figure,figcaption,main,hgroup,mark,time,video,h1,h2,h3,h4,h5,h6,ol,ul,li,dl,dt,dd,span,p,img,input,label,select,option,textarea,button,table,td,tr,form,i,b,em,strong,u,br{
+    margin: 0;
+    padding: 0;
+}
+/* 继承可视窗口 */
+html,body{
+    height: 100%;
+}
+/* 去除列表默认的列表项 */
+ol,ul,li{
+    list-style: none;
+}
+/* 去除超链接的默认样式 */
+a{
+    color:#333;
+    text-decoration: none;
+}
+/* 解决图片存在的bug */
+img{
+    border: 0;
+    /* 在ie9以下浏览器中如果是a标签包裹的img，则会出现边框线 */
+     display: block;
+    /*在块状元素的底部会多出3PX像素左右的间距 */
+}
+/* 万能清除法 */
+.clear-fox{
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+}
+/* 去除文字本身的样式 */
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-variant: normal;
+}
+i,em{
+    font-style: normal;
+}
